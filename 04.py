@@ -20,16 +20,15 @@ for i in range(9):
 
 
 print "------- 5--------"
-# mon = 1000000
-# day = 1
-# new = 0
-#
-# while day <= 3:
-#     if day <= 2:
-#         new = mon * 0.7
-#         day = day + 1
-# print new
+mon = 1000000
+for i in range(3):
+    wen = mon * 0.7
+    mon = wen
+print wen
 # Todo Number5
+
+
+
 
 print "------- 6 --------"
 boke = {"Name" : "Python",
